@@ -61,7 +61,7 @@ Console.WriteLine($"Distance between A and B: {dist:f2}");
 /*
 void Cube(int num)
 {
-    int current = 1;
+    int current = -num;
     while (current <= num)
     {
         int res = current * current * current;
@@ -79,5 +79,5 @@ if (number >= 1)
     Console.Write($"{number} -> ");
     Cube(number);
 }
-else Console.WriteLine("Wrong number");
+else Console.WriteLine("Wrong number!");
 */
